@@ -3,12 +3,10 @@ package ru.alexander.springjdbc.model;
 import lombok.Data;
 
 @Data
-public class Mp3 {
+public class Author {
 
     private int id;
 
     private String name;
-
-    private Author author;
 
 }
